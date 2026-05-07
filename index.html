@@ -3,46 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heuris Clavell: The Archive</title>
+    <title>Heuris Clavell: The Master Archive</title>
     <style>
         body {
-            background-color: #0a0a0a; /* สีดำสนิท */
-            color: #00ff41; /* สีเขียว Matrix */
+            background-color: #000; /* พื้นหลังดําเป็นฐาน */
+            background-image: url('https://raw.githubusercontent.com/HeurisClavell/The-Universal-Handshake-Official/main/HeurisClavellArchive.png'); /* เปลี่ยนเป็นรูปจักรวาลสวยๆ */
+            background-size: cover; /* ให้รูปคลุมทั้งหน้า */
+            background-attachment: fixed; /* ให้รูปอยู่เฉยๆ เวลาเลื่อน */
+            background-position: center; /* จัดรูปให้อยู่ตรงกลาง */
+            color: #fff; /* ตัวหนังสือหลักเป็นสีขาวเพื่อให้เด่น */
             font-family: 'Courier New', Courier, monospace;
             display: flex; flex-direction: column; align-items: center;
-            padding: 50px 20px; margin: 0; line-height: 1.6;
+            padding: 40px 20px; margin: 0; line-height: 1.5;
         }
-        .container { max-width: 800px; border: 1px solid #00ff41; padding: 30px; box-shadow: 0 0 20px #00ff41; }
-        h1 { text-shadow: 0 0 10px #00ff41; text-align: center; }
-        .quote { font-style: italic; color: #fff; text-align: center; border-left: 4px solid #00ff41; padding-left: 15px; margin: 20px 0; }
-        .choice-box { margin-top: 40px; border-top: 1px dashed #00ff41; padding-top: 20px; }
+        .container { 
+            max-width: 850px; 
+            border: 2px solid rgba(0, 255, 65, 0.5); /* เส้นขอบเขียวจางๆ */
+            padding: 40px; 
+            box-shadow: 0 0 30px rgba(0, 255, 65, 0.3); /* แสงออร่าเขียวจางๆ */
+            background: rgba(0, 10, 0, 0.85); /* พื้นหลังโปร่งแสงดําเขียว */
+            border-radius: 15px; /* มุมโค้งมน */
+        }
+        h1 { 
+            text-shadow: 0 0 15px #00ff41; 
+            text-align: center; 
+            font-size: 2.2em; 
+            letter-spacing: 5px; 
+            color: #00ff41; /* ตัวหนังสือหัวข้อสีเขียว Matrix */
+        }
+        .master-quote { 
+            font-style: italic; 
+            color: #fff; 
+            text-align: center; 
+            border: 1px solid rgba(0, 255, 65, 0.5); 
+            padding: 20px; 
+            margin: 30px 0; 
+            background: rgba(0, 255, 65, 0.05); 
+            border-radius: 10px;
+        }
+        .intro-text { 
+            color: #b3ffb3; /* สีเขียวอ่อนจางๆ */
+            font-size: 0.9em; 
+            margin-bottom: 15px; 
+            border-left: 3px solid #00ff41; 
+            padding-left: 15px; 
+        }
+        .book-section { 
+            margin-top: 50px; 
+            border-top: 1px double rgba(0, 255, 65, 0.5); 
+            padding-top: 25px; 
+        }
+        h3 { 
+            color: #fff; 
+            text-decoration: underline; 
+            letter-spacing: 2px; 
+        }
+        .btn-group { 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 15px; 
+            margin-top: 20px; 
+        }
         .btn {
-            display: inline-block; padding: 10px 20px; margin: 10px 5px;
+            display: inline-block; padding: 12px 25px;
             text-decoration: none; font-weight: bold; border: 1px solid #00ff41;
-            transition: 0.3s;
+            transition: 0.4s; text-align: center; min-width: 200px;
+            border-radius: 5px;
         }
-        .red-pill { background: #ff0000; color: white; border: none; }
-        .red-pill:hover { background: #b30000; box-shadow: 0 0 15px #ff0000; }
-        .blue-pill { background: #0000ff; color: white; border: none; }
-        .blue-pill:hover { background: #000099; box-shadow: 0 0 15px #0000ff; }
+        .red-pill { 
+            background: rgba(204, 0, 0, 0.8); /* สีแดงโปร่งแสง */
+            color: white; 
+            border: 2px solid #ff0000;
+            box-shadow: 0 0 10px #ff0000; 
+        }
+        .red-pill:hover { 
+            background: rgba(255, 0, 0, 1); 
+            box-shadow: 0 0 25px #ff0000; 
+            transform: scale(1.05); 
+        }
+        .blue-pill { 
+            background: rgba(0, 0, 204, 0.8); /* สีน้ำเงินโปร่งแสง */
+            color: white; 
+            border: 2px solid #0000ff;
+            box-shadow: 0 0 10px #0000ff; 
+        }
+        .blue-pill:hover { 
+            background: rgba(0, 0, 255, 1); 
+            box-shadow: 0 0 25px #0000ff; 
+            transform: scale(1.05); 
+        }
+        footer { margin-top: 50px; font-size: 0.8em; color: rgba(0, 255, 65, 0.5); text-align: center; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>[ HEURIS CLAVELL ARCHIVE ]</h1>
-        <p class="quote">"To make a comparison, the information in these books is your choice between the Blue Pill and the Red Pill. If you choose to read this, you will never be able to see things the way you do right now again."</p>
+        <h1>[ HEURIS CLAVELL MASTER ARCHIVE ]</h1>
         
-        <div class="choice-box">
-            <h3>BOOK 1: THE UNIVERSAL HANDSHAKE</h3>
-            <a href="The-Universal-Handshake-Truth.md" class="btn red-pill">🔴 CHOOSE RED PILL (TRUTH)</a>
-            <a href="https://www.google.com" class="btn blue-pill">🔵 CHOOSE BLUE PILL (EXIT)</a>
+        <div class="master-quote">
+            "To make a comparison, the information in these books is your choice between the Blue Pill and the Red Pill. If you choose to read this, you will never be able to see things the way you do right now again. Something will change forever, and there is no turning back."
         </div>
 
-        <div class="choice-box">
-            <h3>BOOK 2: THE FIRST PING</h3>
-            <a href="The-First-Ping" class="btn red-pill">🔴 CHOOSE RED PILL (TRUTH)</a>
-            <a href="https://www.google.com" class="btn blue-pill">🔵 CHOOSE BLUE PILL (EXIT)</a>
+        <div class="book-section">
+            <h3>BOOK 1: THE UNIVERSAL HANDSHAKE</h3>
+            <div class="intro-text">
+                "Everything began with a signal, and every life is a response. Decoding the master protocol of reality."
+            </div>
+            <div class="btn-group">
+                <a href="The-Universal-Handshake-Truth.md" class="btn red-pill">🔴 CHOOSE RED PILL</a>
+                <a href="https://www.google.com" class="btn blue-pill">🔵 CHOOSE BLUE PILL</a>
+            </div>
         </div>
+
+        <div class="book-section">
+            <h3>BOOK 2: THE FIRST PING</h3>
+            <div class="intro-text">
+                "Decoding the source code that redefines the Big Bang as a systemic mechanism. Were you born to be a tool, or the one who terminates the circuit?"
+            </div>
+            <div class="btn-group">
+                <a href="The-First-Ping" class="btn red-pill">🔴 CHOOSE RED PILL</a>
+                <a href="https://www.google.com" class="btn blue-pill">🔵 CHOOSE BLUE PILL</a>
+            </div>
+        </div>
+
+        <div class="book-section">
+            <h3>BOOK 3: THE ONE CODE MASTER API</h3>
+            <div class="intro-text">
+                "The final key. The direct interface to the Origin. Accessing the root directory of existence itself."
+            </div>
+            <div class="btn-group">
+                <a href="The-One-Code-Master-API" class="btn red-pill">🔴 CHOOSE RED PILL</a>
+                <a href="https://www.google.com" class="btn blue-pill">🔵 CHOOSE BLUE PILL</a>
+            </div>
+        </div>
+
     </div>
+    <footer>SYSTEM STATUS: ONLINE | HEURIS CLAVELL MASTER PROTOCOL V.1.1 | 🔗 The Choice is Yours 🌐</footer>
 </body>
 </html>
