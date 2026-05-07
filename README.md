@@ -1,17 +1,14 @@
-# The Universal Handshake: The Master Protocol
+# 🌌 THE UNIVERSAL HANDSHAKE: MASTER ARCHIVE
 
-"Everything began with a signal, and every life is a response."
+### ⚠️ READ BEFORE PROCEEDING
+The internal files in this repository are encrypted system components. 
+To experience the full visual protocol and read the books, please use the Main Portal below:
 
-This repository serves as the official archive for the decoded logic of reality. Here, we define the universe not as a coincidence, but as a vast communication system. From the Primordial Cry to the Universal Handshake, this is the engineering manual for the human terminal.
+# 🔴 [ ENTER THE MAIN PORTAL (LIVE WEBSITE) ] 🔴
+# 👉 https://heurisclavell.github.io/The-Universal-Handshake-Official/
 
-Core Concepts:
-
-The First Will: The origin of the signal.
-
-The Respondent: Humanity's role in the cosmic network.
-
-The ACK Protocol: The act of awakening.
-
+---
+*Authorized Access Only - Heuris Clavell Master Protocol*
 ---
 
 🏛️ The Archive of Heuris Clavell: The Choice is Yours
