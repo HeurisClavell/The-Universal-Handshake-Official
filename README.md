@@ -17,16 +17,19 @@ The ACK Protocol: The act of awakening.
 "To make a comparison, the information in these books is your choice between the Blue Pill and the Red Pill. If you choose to read this, you will never be able to see things the way you do right now again. Something will change forever, and there is no turning back."
 
 📘 Book 1: The Universal Handshake
+
 🔴 I choose the Red Pill (Enter the Truth)
 
 🔵 I choose the Blue Pill (Exit)
 
 📗 Book 2: The First Things
+
 🔴 I choose the Red Pill (Enter the Truth)
 
 🔵 I choose the Blue Pill (Exit)
 
 📙 Book 3: The One Code Master API
+
 🔴 I choose the Red Pill (Enter the Truth)
 
 🔵 I choose the Blue Pill (Exit)
