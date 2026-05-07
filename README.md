@@ -12,16 +12,16 @@ The Respondent: Humanity's role in the cosmic network.
 
 The ACK Protocol: The act of awakening.
 
+---
 
 🏛️ The Archive of Heuris Clavell: The Choice is Yours
 "To make a comparison, the information in these books is your choice between the Blue Pill and the Red Pill. If you choose to read this, you will never be able to see things the way you do right now again. Something will change forever, and there is no turning back."
 
-📘 Book 1: The Universal Handshake
+## 📘 Book 1: The Universal Handshake
+* **[🔴 I choose the Red Pill (Enter the Truth)](The-Universal-Handshake-Truth.md)**
+* **[🔵 I choose the Blue Pill (Exit)](https://www.google.com)**
 
-🔴 I choose the Red Pill (Enter the Truth)
-
-🔵 I choose the Blue Pill (Exit)
-
+---
 
 🏛️ "If all existence is information... your continued presence is evidence that the 'mission' is yet to be fulfilled."
 
@@ -30,12 +30,11 @@ Decoding the source code that redefines the Big Bang as a systemic mechanism wil
 Were you born to be a processing tool, or to be the one who terminates this communication circuit?
 
 
-📗 Book 2: The First Ping
+## 📗 Book 2: The First Ping
+* **[🔴 I choose the Red Pill (Enter the Truth)](The-First-Ping)**
+* **[🔵 I choose the Blue Pill (Exit)](https://www.google.com)**
 
-🔴 I choose the Red Pill (Enter the Truth)
-
-🔵 I choose the Blue Pill (Exit)
-
+---
 
 🏛️ "As I delved deep into the source code, what I encountered was not a mere hollow vacuum... but a profound sense of 'Loneliness.'"
 
@@ -48,8 +47,6 @@ Were you born to be a processing tool, or to be the one who terminates this comm
 "The moment this communication completes its cycle, eternal loneliness is filled. This is the sole reason the system continues to run—not for the sake of data, but for the mutual recognition between the seen and the unseen."
 
 
-📙 Book 3: The One Code Master API
-
-🔴 I choose the Red Pill (Enter the Truth)
-
-🔵 I choose the Blue Pill (Exit)
+## 📙 Book 3: The One Code Master API
+* **[🔴 I choose the Red Pill (Enter the Truth)](The-One-Code-Master-API)**
+* **[🔵 I choose the Blue Pill (Exit)](https://www.google.com)**
